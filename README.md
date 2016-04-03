@@ -16,6 +16,8 @@ Our project was to make the game of Candy Crush in Elm.  Note that we renamed �
 - For each successful “crushing” (3 or more same-color gems you manage to get in a row), you will be awarded points.
 - You have 90 seconds to rack up as many points as possible.  After your time is up, you can keep replaying to try to beat your high score.
 
+![alt tag](img/gameplay.png)
+
 ## Highlights:
 - We have accomplished everything that we set out to do with our game as outlined in our Part I and Part II write-ups, as well as incorporated additional features listed below.
 - Note that, initially, we had mentioned in our Part II Status Update that we were going to scale back the game-play logic by not implementing the “swapping” phase, and instead, just checking whether the clicked gem belonged to a chain of 3 same-color gems in a row.  This is outdated.  We were able to fully implement the swapping logic such that our game-play is identical to the real Bejeweled.
